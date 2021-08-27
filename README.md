@@ -1,5 +1,4 @@
 # for21run.github.io
-# ваще
 <!DOCTYPE html>
 <html>
 <head>
