@@ -17,7 +17,7 @@
 	Текст</pre>
 	<small>Small leters</small>
 	<big>Big leters</big>	
-	<center><a href='http://google.com'target='_blank' title="Press to open">Красивый текст</a></center>
+	<center><a href='http://google.com'target='_blank' title="Press to open">Ссылка на гугл</a></center>
 	<hr>
 	<abbr title='HTML - is hyper...'>HTML</abbr>
 	<ul>
