@@ -8,14 +8,16 @@ body, html {
 }
 
 .navbar-brand img {
-	height: 50px
+	height: 40px
 }
 
 .navbar-nav li{
-	padding-right: 20px; 
+	padding-right: 20px;
 }
 
-.nav-link {font-size: 1.5em !important}
+.nav-link {
+    font-size: 1.2em !important;
+}
 
 .carousel-inner{
 	height: 400px;
@@ -36,14 +38,14 @@ body, html {
 
 @media (max-width: 450px) {
 	.carousel-caption display-2 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 }
 
 .jumbotron {
 	padding: 1em;
 	border-radius: 0;
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -53,7 +55,7 @@ body, html {
 }
 
 .alert {
-	width: 75%;
+	width: 95%;
 	margin: 0 auto;
 	padding-top: 2em;
 }
