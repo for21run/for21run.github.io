@@ -1,355 +1,297 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Учебный сайт на Bootstrap</title>
+    <title>Сантехсервис v2</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/k2.css">
   </head>
 
 
-  <body data-spy="scroll" data-target=".navbar-target" data-offset="300">
-  	<div class="container">
-  	<nav class="navbar navbar-target navbar-expand-sm navbar-light bg-light fixed-top">
-		<div class="container-fluid">
-			<a href="#" class="navbar-brand"><img src="https://i.pinimg.com/originals/62/23/ab/6223ab1053dd9ac6f0166fe6954442b8.gif"> ЛОГОТИП</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a href="#slides" class="nav-link">Главная</a>
-						</li>
-						<li class="nav-item">
-							<a href="#about-section" class="nav-link">Про нас</a>
-						</li>
-						<li class="nav-item">
-							<a href="#site-section" class="nav-link">Создание сайтов</a>
-						</li>
-						<li class="nav-item">
-							<a href="#tools-section" class="nav-link">Мы используем</a>
-						</li>
-						<li class="nav-item">
-							<a href="#skills-section" class="nav-link">Мы умеем</a>
-						</li>
-					</ul>
-				</div>
-		</div>
-	</nav>
+  <body>
+    <div class="wrapped">
 
-<div class="carousel slide" data-ride="carousel" id="slides">
-  	<ol class="carousel-indicators">
-  		<li data-target="#slides" data-slide-to="0" class="active"></li>
-  		<li data-target="#slides" data-slide-to="1"></li>
-  		<li data-target="#slides" data-slide-to="2"></li>
-  	</ol>
- 	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img class="img-fluid" src="images/comp_1.jpg">
-			<div class="carousel-caption">
-				<h1 class="display-2">Программирование</h1>
-				<h3>Научим программировать</h3>
-				<a href="#site-section"><button type="button" class="btn btn-info btn-lg">Создание сайтов</button></a>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img class="img-fluid" src="images/comp_2.jpg">
-			<div class="carousel-caption">
-				<h2 class="display-3">Программирование</h2>
-				<h3>Научим программировать</h3>
-				<a href="#site-section"><button type="button" class="btn btn-info btn-sm">Создание сайтов</button></a>
-				<a href="#tools-section"><button type="button" class="btn btn-warning btn-lg">Мы используем</button></a>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="images/comp_3.jpg">
-			<div class="carousel-caption">
-				<h2 class="display-4">Программирование</h2>
-				<h3>Научим программировать</h3>
-				<a href="#site-section"><button type="button" class="btn btn-info btn-lg">Создание сайтов</button></a>
-				<a href="#tools-section"><button type="button" class="btn btn-warning btn-sm">Мы используем</button></a>
-			</div>
-		</div>
-
-		<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    	<span class="sr-only">Предыдущий</span>
-  		</a>
-  		<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-   		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    	<span class="sr-only">Следующий</span>
-  		</a>
-  	</div>
-</div>
-
-	<!-- Основной блок сайта -->
-	<div class="container-fluid" id="about-section"><br><br><br>
-		<div class="row jumbotron">
-			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-12 col-xl-10">
-				<h2>Про нас</h2>
-				<p class="lead" data-aos="fade-up">Банальные, но неопровержимые выводы, а также действия представителей оппозиции освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, обнародованы. Имеется спорная точка зрения, гласящая примерно следующее: тщательные исследования конкурентов, превозмогая сложившуюся непростую экономическую ситуацию, своевременно верифицированы.</p>
-				<p data-aos="flip-down">Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный риторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
-				<br>
-			</div>
-			<div>
-				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-					<a href="#"><button class="btn btn-success btn-lg" type="button">Читать далее</button></a>	
-				</div>
-			
-			</div>
-		
-		</div>
-	</div>
-	<div class="container-fluid" id="site-section"><br><br>
-		<div class="row text-center alert">
-			<div class="col-12">
-				<h2 class="display-4">Создание сайтов</h2>
-			</div>
-			<hr>
-			<div class="col-12">
-				<p class="lead" data-aos="zoom-in">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
-				<p data-aos="zoom-in">Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
-				<p data-aos="zoom-in">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.
-				</p>
-			</div>
-		</div>
-		
-	</div>
-
-	<div class="container-fluid padding" id="tools-section"><br><br><br><br>
-		<h2 class="text-center display-6">Мы используем:</h2><br>
-		<div class="row text-center padding">
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				
-				<i class="fas fa-code"></i>
-				<h3>HTML5</h3>
-				<p>Прежде всего, внедрение современных методик способствует повышению качества стандартных подходов.</p>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<i class="fab fa-css3"></i>
-					<h3>CSS3</h3>
-					<p>Прежде всего, внедрение современных методик способствует повышению качества стандартных подходов.</p>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<i class="fas fa-bold"></i>
-				<h3>Bootatrap</h3>
-				<p>Прежде всего, внедрение современных методик способствует повышению качества стандартных подходов.</p>
-			</div>
-		</div>
-
-	</div>
-	<hr class="my-4">
-	</div>
-
-
-
-	
-      
-
-    <div class="container-fluid" id="skills-section"><br><br>
-        <div class="row d-flex no-gutters">
-            <div class="col-12 col-lg-6" style="background-image: url('images/service_1.jpg');" data-aos="fade-right" data-aos-delay="">
-            </div>
-            <div class="col-lg-5 p-lg-4" data-aos="fade-left">
-            	<h2 class="mb-3 text-black">Сайты-визитки</h2>
-            	<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
-				<p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в</p>
-            	<ul class="ul-check primary list-unstyled mt-5">
-	                <li>преимущество 1</li>
-    	            <li>преимущество 2</li>
-        	        <li>преимущество 3</li>
-            	</ul>
-            </div>
+<nav class="navbar navbar-target navbar-expand-sm navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <div class="row">
+        <a href="#" class="navbar-brand"><img src="" alt="Logo"> Сантехсервис</a>
+        </div>  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Наши история</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about-section" class="nav-link">Наши бренды</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Наши услуги</a>
+              </li>
+              <li class="nav-item">
+                <a href="#tools-section" class="nav-link">Наши запчасти</a>
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">Наши контакты</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      
+    </nav>
+
+<br><br><br>
+
+    <figure>
+      <div class="fixed-wrap">
+        <div class="container-fluid text-center" id="fixed">
+          <h2 class="display-3">Добро пожаловать в Сантехсервис</h2>
+          <h3>единственный в Казани сервисный центр по обслуживанию</h3>
+          <a href="#site-section"><button type="button" class="btn btn-info btn-lg">Наши история</button></a> 
+        </div>
+        
+      </div>
+    </figure>
+
+
+<div class="container-fluid" id="about-section"><br><br><br>
+    <div class="row jumbotron">
+      <div class="col-12">
+        <h2 class="display-4 text-center">Наши бренды</h2>
+        <p class="lead" data-aos="fade-up">Сантехсервис-единственный в Казани сервисный центр по обслуживанию Grohe, Oras, Villeroy & Boch, Gustavsberg, Jacob Delafon, Vitra, Hansgrohe.</p>
+        <p data-aos="flip-down">Мы также обслуживаем Geberit, Ido, Ifo. ?Roca, Jika, Laufen</p>
+        <p class="lead" data-aos="zoom-in">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
+        <br>
+      </div>
+      <div>
+        <div class="col-12">
+          <a href="#"><button class="btn btn-success btn-lg" type="button">Читать далее</button></a>  
+        </div>
+      
+      </div>
+    
+    </div>
+  </div>
+
+<br>
+
+
+    <div class="container padding" id="services"><br><br><br><br>
+    
+    <h2 class="display-4 text-center">Наши услуги</h2>
+    <br><br><br><br>
     </div>
 
 
-    <div class="container-fluid"><br>
-        <div class="row d-flex no-gutters">
-            <div class="col-12 col-lg-6 order-lg-2" style="background-image: url('images/service_2.jpg');" data-aos="fade-left" data-aos-duration="5">
+
+
+
+    
+    <br><br>
+
+
+<!-- Bootstrap 4 -->
+<div id="carouseltwo" class="carousel slide" data-ride="carousel">
+  <!-- Индикаторы -->
+  <ol class="carousel-indicators">
+    <li data-target="#carouseltwo" data-slide-to="0" class="active"></li>
+    <li data-target="#carouseltwo" data-slide-to="1"></li>
+    <li data-target="#carouseltwo" data-slide-to="2"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid" src="images/comp_1.jpg" alt="...">
+      <div class="carousel-caption">
+        Надпис
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid" src="images/comp_2.jpg" alt="...">
+    </div>
+    <div class="carousel-item">
+        <img class="img-fluid" src="images/comp_3.jpg" alt="...">
+    </div>
+  </div>
+  <!-- Элементы управления -->
+  <a class="carousel-control-prev" href="#carouseltwo" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Предыдущий</span>
+  </a>
+  <a class="carousel-control-next" href="#carouseltwo" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Следующий</span>
+  </a>
+</div>
+<br><br><br>
+
+
+      <br><br>
+
+      <div class="container text-center">
+      <button type="button" id="plumbersBtn" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#plumbers">нашы мастера</button>
+      </div>
+  <br>
+
+  
+  <div id="plumbers" class="collapse">
+      
+
+
+    <div class="container-fluid padding">
+     <div class="row alert text-center">
+      <div class="col-12">
+        <h2 class="display-4">вместе у нас сто лет опыта</h2>
+
+        <div class="container padding">
+          <div class="row padding">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://funik.ru/wp-content/uploads/2019/03/8de33035e29fe32d9017.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h4 class="card-title">Иванов</h4>
+                  <p class="card-text">Однажды в студеную зимнюю пору</p>
+                  <a href="#" class="btn-warning">глянуть</a>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-5 p-lg-4" data-aos="fade-right" data-aos-delay="5000">
-            	<h2 class="mb-3 text-black">Лендинг</h2>
-            	<p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца.</p>
-            	<p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
-            	<ul class="ul-check primary list-unstyled mt-5">
-                	<li>преимущество 4</li>
-                	<li>преимущество 5</li>
-                	<li>преимущество 6</li>
-            	</ul>
+            <div class="col-md-4">
+              <div class="card">
+              <img src="https://poznavaemoe.ru/upload/iblock/c4a/pochemu-izvergayutsya-vulkany.jpg" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Петров</h4>
+                <p class="card-text">Однажды в студеную зимнюю пору</p>
+                <a href="#" class="btn-warning">глянуть</a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+              <img src="https://tabulo.ru/wp-content/uploads/2021/08/вулкан-извержение-Камчатка.jpg" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Сидоров</h4>
+                <p class="card-text">Однажды в студеную зимнюю пору</p>
+                <a href="#" class="btn-warning">глянуть</a>
+              </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="offset-lg-0 col-lg-6">
+        <h2>Что-то про ремонт</h2>
+        <p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
+        <p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
+        <p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
+        <br>
+        <a href="#" class="btn btn-danger">Читать далее</a>
+      </div>
+      <div class="col-lg-6">
+        <img src="https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkXotP5uF2faHOZ9wld-CiVqaKTM5SRkZCeTgDn6uOyic" alt="фото" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+
+    
+	<br><br>
+
+
+<div class="container padding text-center">
+      <a href="#"><button type="button" class="btn btn-warning btn-lg">Отправить заявку на Email</button></a>
+      <a href="#https://api.whatsapp.com/send?phone=79180000000&text=Отправьте%20мне%20каталог"><button type="button" class="btn btn-warning btn-lg">Отправить заявку на WhatsApp</button></a>
+  </div>
+  <br><br>
+
+
+  <div class="container-fluid padding" id="tools-section"><br><br><br><br>
+    <h2 class="text-center display-4">Наши запчасти</h2>
+</div>
+  <hr class="my-4">
+
+
+
+
+  <div class="container" id="skills-section"><br><br>
+        <div class="row">
+            <div class="col-5 mx-auto" style="background-image: url('images/service_1.jpg');">
+            </div>
+            <div class="col-5 mx-auto">
+              <h2 class="mb-3 text-black">Оригинальные запчасти</h2>
+              <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+        <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в</p>
+        <ul class="ul-check primary list-unstyled mt-5">
+                  <li>преимущество 1</li>
+                  <li>преимущество 2</li>
+                  <li>преимущество 3</li>
+              </ul>
+            </div>
+        </div>
+    </div>
+<br><br>
+
+<div class="container"><br>
+        <div class="row align-items-stretch">
+            <div class="col-5 mx-auto" style="background-image: url('images/service_2.jpg');" data-aos="fade-right" data-aos-duration="5">
+            </div>
+            <div class="col-5 mx-auto" data-aos="fade-left" data-aos-delay="5000">
+              <h2 class="mb-3 text-black">Неоригинальные запчасти</h2>
+              <p>Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца.</p>
+              <p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
+              <ul class="ul-check primary list-unstyled mt-5">
+                  <li>преимущество 4</li>
+                  <li>преимущество 5</li>
+                  <li>преимущество 6</li>
+              </ul>
             </div>
         </div>
     </div>      
     
     <br><br>
 
-    <div class="container-fluid">
-    	<a href="#"><button type="button" class="btn btn-warning btn-lg">Отправить заявку на Email</button></a>
-    	<a href="#https://api.whatsapp.com/send?phone=79180000000&text=Отправьте%20мне%20каталог"><button type="button" class="btn btn-warning btn-lg">Отправить заявку на WhatsApp</button></a>
-	</div>
-	<br><br>
+
+  <br><br>
+
+
+<footer class="container-fluid padding" id="footer">
     
-
-	<div class="container-fluid padding">
-		<div class="row padding">
-			<div class="offset-lg-0 col-lg-6">
-				<h2>Что-то про ремонт</h2>
-				<p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
-				<p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
-				<p>Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а некогда.</p>
-				<br>
-				<a href="#" class="btn btn-danger">Читать далее</a>
-			</div>
-			<div class="col-lg-6">
-				<img src="https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkXotP5uF2faHOZ9wld-CiVqaKTM5SRkZCeTgDn6uOyic" alt="фото" class="img-fluid">
-			</div>
-		</div>
-		
-	</div>
-	<figure>
-		<div class="fixed-wrap">
-			<div id="fixed">
-				
-			</div>
-			
-		</div>
-	</figure>
-	<div class="text-center">
-		<button type="button" id="gifsBtn" class="btn btn-success" data-toggle="collapse" data-target="#gifs">отрыть гифки</button>
-	</div>
-	<br>
-	
-		<div id="gifs" class="collapse">
-			<div class="container-fluid padding">
-				<div class="row text-center">
-					<div class="col-sm-6 col-md-3">
-						<img src="http://cdn.fishki.net/upload/post/2017/02/22/2224693/eda3d113678b5f69f988336b677715ac.gif">
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<img src="https://i.pinimg.com/originals/aa/15/c2/aa15c2321ea22337c36b90a61fa3e4d7.gif">
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<img src="https://i.gifer.com/3Q2K.gif">
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<img src="https://proimg.ru/wp-content/uploads/2015/12/odbyt14151935412598.gif">
-					</div>
-					
-				</div>
-				
-			</div>
-			
-		</div>
-
-		<div class="container-fluid padding">
-		 <div class="row alert text-center">
-		  <div class="col-12">
-		  <h2 class="display-4">Экскурсия в жерло вулкана</h2>
-
-			<div class="container padding">
-				<div class="row padding">
-					<div class="col-md-4">
-						<div class="card">
-							<img src="https://funik.ru/wp-content/uploads/2019/03/8de33035e29fe32d9017.jpg" class="card-img-top">
-							<div class="card-body">
-								<h4 class="card-title">Классно!</h4>
-								<p class="card-text">Однажды в студеную зимнюю пору</p>
-								<a href="#" class="btn-warning">глянуть</a>
-							</div>
-						</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<img src="https://poznavaemoe.ru/upload/iblock/c4a/pochemu-izvergayutsya-vulkany.jpg" class="card-img-top">
-						<div class="card-body">
-							<h4 class="card-title">Офигеть!</h4>
-							<p class="card-text">Однажды в студеную зимнюю пору</p>
-							<a href="#" class="btn-warning">глянуть</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<img src="https://tabulo.ru/wp-content/uploads/2021/08/вулкан-извержение-Камчатка.jpg" class="card-img-top">
-						<div class="card-body">
-							<h4 class="card-title">Обалдеть!</h4>
-							<p class="card-text">Однажды в студеную зимнюю пору</p>
-							<a href="#" class="btn-warning">глянуть</a>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		   </div>
-		  </div>
-		 </div>
-		</div>
-
-<!--
-    <div class="container-fluid" id="-section">
-     <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="row">
-              <div class="col-6 col-md-6 mb-4 col-lg-0 col-lg-3" data-aos="fade-up" data-aos-delay="">
-                <div class="block-counter-1">
-                  <span class="number"><span data-number="3">0</span>+</span>
-                  <span class="caption">Лет опыта</span>
-                </div>
-              </div>
-              <div class="col-6 col-md-6 mb-4 col-lg-0 col-lg-3" data-aos="fade-up" data-aos-delay="1000">
-                <div class="block-counter-1">
-                  <span class="number"><span data-number="30">0</span>+</span>
-                  <span class="caption">Написанных сайтов</span>
-                </div>
-              </div>
-              <div class="col-6 col-md-6 mb-4 col-lg-0 col-lg-3" data-aos="fade-up" data-aos-delay="2000">
-                <div class="block-counter-1">
-                  <span class="number"><span data-number="2000">0</span>+</span>
-                  <span class="caption">Просмотров в месяц</span>
-                </div>
-              </div>
-              <div class="col-6 col-md-6 mb-4 col-lg-0 col-lg-3" data-aos="fade-up" data-aos-delay="3000">
-                <div class="block-counter-1">
-                  <span class="number"><span data-number="15000">0</span>+</span>
-                  <span class="caption">Лайков в месяц</span>
-                </div>
-              </div>
+      
+        <div class="col-12 text-center">
+          <h2>Наши контакты</h2>
+        </div>
+          <div class="row">
+            <div class="col-6 social text-center">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="col-6 contact text-center">
+              <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-phone"></i> (123)345-0987</a></li>
+              <li><a href="#"><i class="fab fa-envelope-o"></i> san@teck.ru</a></li>
+              <li><a href="#"><i class="fab fa-whatsapp"></i> (123)345-6543</a></li>
+              </ul>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-	<br><br>
--->
+      
+      
+    
+    
+  </footer>
 
-	<footer class="container-fluid">
-		<div class="container">
-			<div class="row padding text-center">
-				<div class="col-12">
-					<h2>Наши контакты:</h2>
-				</div>
-				<div class="col-6 social padding">
-					<a href="#"><i class="fab fa-twitter"></i></a>
-					<a href="#"><i class="fab fa-youtube"></i></a>
-					<a href="#"><i class="fab fa-facebook"></i></a>
-				</div>
-				<div class="col-6 contact padding">
-					<ul class="list-unstyled">
-					<li><a href="#"><i class="fab fa-phone"></i> (123)345-0987</a></li>
-					<li><a href="#"><i class="fab fa-email"></i> san@teck.ru</a></li>
-					<li><a href="#"><i class="fab fa-whatsapp"></i> (123)345-6543</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-		
-	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -358,6 +300,6 @@
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>AOS.init();</script>
 	
-</div>
-</body>
+  </div>
+  </body>
 </html>
