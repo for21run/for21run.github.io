@@ -105,7 +105,7 @@ body, html {
 	margin-top: 0.3em;
 	margin-bottom: 1em; 
 }
-
+/*
 .fa-code {color: #e54d26}
 .fa-bold {color: #563d7c}
 .fa-css3 {color: #2163af}
@@ -114,7 +114,7 @@ body, html {
 	font-size: 2em;
 	margin: 1em;
 }
-
+*/
 
 #gifsBtn {
 	margin-bottom: 20px;
@@ -141,7 +141,7 @@ body, html {
 .fa-youtube {color: #bb0000}
 .facebook {color: #3b5998}
 .fa-whatsapp {color: green}
-}
+
 
 .fa-twitter:hover, .fa-youtube:hover, .facebook:hover {
 	color: red;
@@ -154,7 +154,11 @@ footer {
 	color: white;
 }
 
+.contact {
+	font-size: 1.3em;
+	color: white;
+}
+
 .contact a {
-	font-size: 1.5em;
 	color: white;
 }
