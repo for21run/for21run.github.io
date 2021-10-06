@@ -49,7 +49,7 @@ body, html {
 	border-top: 4px solid #f0f0f0;
 	border-bottom: 4px solid #f0f0f0;
 	padding-top: 200px;
-	background: url(../images/Kazan.jpg) no-repeat center center fixed;
+	background: url(../images/Kazan.webp) no-repeat center center fixed;
 
 	background-blend-mode: multiply;
 	background-color: lightblue;
