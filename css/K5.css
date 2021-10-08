@@ -4,11 +4,18 @@ body, html {
 	font-family: 'Poppins', sans-serif;
 	color: black;
 }
-
+/*
 @media (min-width: 480px) and (max-width: 1024px) {
   p {
     font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
   }
+}
+*/
+@media screen and (max-width: 801px) {
+	h2, h4, h5, h6 {font-size: 2.5em;}
+}
+@media screen and (max-width: 1401px) {
+	h2, h4, h5, h6 {font-size: 1.2em;}
 }
 
 .navbar {
@@ -36,13 +43,7 @@ body, html {
 .navbar-nav > li > a:hover {
     color: orange !important;
 }
-/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
-.navbar-default .nav-link > .active > a, 
-.navbar-default .nav-link > .active > a:hover, 
-.navbar-default .nav-link > .active > a:focus {
-    color: orange !important;
-    background-color: #D5D5D5 !important;
-}
+
 
 .fixed-wrap {
 	color: white;
@@ -79,19 +80,16 @@ body, html {
 	transform: translateY(-50%);
 	text-shadow: 1px 1px 10px #000;
 }
-
+/*
 @media (max-width: 450px) {
 	.carousel-caption display-2 {
 		font-size: 2em;
 	}
 }
-
+*/
 .jumbotron {
-	padding: 1em;
 	border-radius: 0;
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 20px;
+
 }
 
 
@@ -99,15 +97,6 @@ hr {
 	border-top: 1em solid #f0f0f0;
 	width: 60%;
 }
-
-
-
-@media (max-width: 750px) {
-	.display-4 {
-		font-size: 2.1em;
-	}
-}
-
 
 
 
@@ -126,7 +115,7 @@ footer {
 	border-top: 4px solid silver;
 	color: white;
 }
-
+/*
 .contact {
 	font-size: 1.3em;
 	color: white;
