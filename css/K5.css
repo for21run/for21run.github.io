@@ -5,6 +5,12 @@ body, html {
 	color: black;
 }
 
+@media (min-width: 480px) and (max-width: 1024px) {
+  p {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+  }
+}
+
 .navbar {
 	background-color: #777 !important;
 }
@@ -108,10 +114,11 @@ hr {
 .facebook {color: #3b5998}
 .fa-whatsapp {color: green}
 
-
-.contact a:hover {
+/*
+.contact li:hover {
 	color: orange;
 }
+*/
 
 footer {
 	background-color: #aaa;
@@ -125,6 +132,6 @@ footer {
 	color: white;
 }
 
-.contact a {
+.contact li {
 	color: white;
 }
