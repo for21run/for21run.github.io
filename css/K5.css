@@ -4,20 +4,21 @@ body, html {
 	font-family: 'Poppins', sans-serif;
 	color: black;
 }
-/*
+
 @media (min-width: 480px) and (max-width: 1024px) {
-  p {
+  {
     font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
   }
 }
-*/
+
+/*
 @media screen and (max-width: 801px) {
 	h2, h4, h5, h6 {font-size: 2.5em;}
 }
 @media screen and (max-width: 1401px) {
 	h2, h4, h5, h6 {font-size: 1.2em;}
 }
-
+*/
 .navbar {
 	background-color: #777 !important;
 }
