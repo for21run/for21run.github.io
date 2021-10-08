@@ -5,9 +5,9 @@ body, html {
 	color: black;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1400px) {
   {
-    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1400 - 480) ));
   }
 }
 
@@ -44,7 +44,9 @@ body, html {
 .navbar-nav > li > a:hover {
     color: orange !important;
 }
-
+.title {
+	font-size: 1.5em;
+}
 
 .fixed-wrap {
 	color: white;
@@ -114,14 +116,5 @@ footer {
 	background-color: #aaa;
 	padding-top: 50px;
 	border-top: 4px solid silver;
-	color: white;
-}
-/*
-.contact {
-	font-size: 1.3em;
-	color: white;
-}
-
-.contact li {
 	color: white;
 }
