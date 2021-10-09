@@ -50,21 +50,22 @@ body, html {
 
 .fixed-wrap {
 	color: white;
-	transform: translateY(10%);
+	transform: translateY(7%);
 }
 
 
 #fixed {
 	height: 500px;
-	border-top: 4px solid #f0f0f0;
-	border-bottom: 4px solid #f0f0f0;
-	padding-top: 200px;
+	border-top: 5px solid #f0f0f0;
+	border-bottom: 5px solid #f0f0f0;
+	padding-top: 20vw;
 	background: url(../images/Kazan.webp) no-repeat center center fixed;
 
 	background-blend-mode: multiply;
 	background-color: lightblue;
 	background-size: cover;
 }
+
 
 .carousel-inner{
 	width: 100%;
