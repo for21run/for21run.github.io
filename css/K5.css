@@ -11,14 +11,6 @@ body, html {
   }
 }
 
-/*
-@media screen and (max-width: 801px) {
-	h2, h4, h5, h6 {font-size: 2.5em;}
-}
-@media screen and (max-width: 1401px) {
-	h2, h4, h5, h6 {font-size: 1.2em;}
-}
-*/
 .navbar {
 	background-color: #777 !important;
 }
@@ -95,7 +87,9 @@ body, html {
 	border-radius: 0;
 
 }
-
+.domain::before {
+	content: '\0040';
+}
 
 hr {
 	border-top: 1em solid #f0f0f0;
