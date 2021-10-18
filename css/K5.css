@@ -85,10 +85,10 @@ body, html {
 */
 .jumbotron {
 	border-radius: 0;
-
 }
+
 .domain::before {
-	content: '\0040';
+	content: "\0040";
 }
 
 hr {
