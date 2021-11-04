@@ -4,13 +4,13 @@ body, html {
 	font-family: 'Poppins', sans-serif;
 	color: black;
 }
-
+/*
 @media (min-width: 480px) and (max-width: 1400px) {
   {
 	font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1400 - 480) ));
   }
 }
-
+*/
 .navbar {
 	background-color: #777 !important;
 }
@@ -73,7 +73,7 @@ body, html {
 .carousel-caption{
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-60%);
 	text-shadow: 1px 1px 10px #000;
 }
 /*
