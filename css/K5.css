@@ -73,7 +73,7 @@ body, html {
 .carousel-caption{
 	position: absolute;
 	top: 50%;
-	transform: translateY(-60%);
+	transform: translateY(-70%);
 	text-shadow: 1px 1px 10px #000;
 }
 /*
